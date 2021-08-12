@@ -1,3 +1,56 @@
+TODO:
+- Get avascan url
+- Look into stablecoin arb between curve type contracts and uniswap type contracts
+- Understand and fully quantify the pairs liquidity outlined in tokens.ts
+
+Liquidity status overall:
+
+1. Pangolin
+  - WAVAX-ETH; 57.8m; 1.7m;
+  - PNG-WAVAX; 56m; 400k;
+  - WBTC-WAVAX; 12m; 514k;
+  - WAVAX-LINK; 8.7m; 340k;
+  - SUSHI-WAVAX; 7.4m; 164k;
+  - WAVAX-DAI; 4.3m; 748k;
+  - WAVAX-USDT; 4.2m; 1.6m;
+2. Sushi
+  - (data hard to gather, need more time)
+3. Olive
+  - DAI-USDT; 267k;
+  - OLIVE-WAVAX; 167k;
+4. Lydia
+  - WAVAX-LINK; 596k; 299-;
+  - WAVAX-ETH; 202k; 4k;
+  - WBTC-WAVAX; 161k; 3k;
+5. Snowball (Not included in this version of bot)
+  - PNG-WAVAX; 3.8m;
+  - WBTC-WAVAX - 290k
+  - WAVAX-ETH; 1.1m;
+  - SUSHI-WAVAX; 138k;
+
+1. baguette - $366642 ( good )
+2. canary - $415512 ( good )
+3. no data - low liqudity ( if you want to sell 1000 avax for eth you would make %26.4 price impact )
+4. complus network
+5. dct dao - low liquidity ( if you want to sell 1000 avax for eth you would make %54.6 price impact )
+6. dexalot - testnet only
+7. gameswap - for trading gaming nfts only
+8. gondola.finance - unusable
+9. jelly swap - liquidity 100 avax
+10. lydia finance - 1098084 ( good )
+11. markr - dex aggregator, but $190,857,508 liquidity
+12. niftyx - nft only
+13. olive.cash - $634000 ( good ) 
+14. pandaswap - low liquidity ( if you want to sell 1000 avax for eth you would make %53.13 price impact )
+15. pangolin exchange - $184569360 ( good )
+16. penguin finance - didn't find swap functionality ( probably not dex as categorized )
+17. snowball network - something like a curve ( two stablepools )
+18. sushiswap - $3843434 ( good )
+19. traderjoexyz - seems like more then $1m in liqudity ( < $1/2m trading volume ) - good I guess
+20. yetiswap - $141738 ( low liquidity )
+21. zero exchange - $1295906 ( good )
+
+
 **Note**: This repo is written only for POC. The bot is implemented simply for demostration. It's not robust enough to be competitve with other arb bots that are running in the network. If you want a production-ready arb bot, then you might need to implement a bot by yourself.
 
 If you have any question, please read the issues first. You may find your answer there.
