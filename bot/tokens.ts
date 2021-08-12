@@ -22,6 +22,8 @@ const avaxQuoteTokens: Tokens = {
   eth: { symbol: 'ETH', address: '0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15'},
   dai: { symbol: 'DAI', address: '0xbA7dEebBFC5fA1100Fb055a87773e1E99Cd3507a'},
   png: { symbol: 'PNG', address: '0x60781C2586D68229fde47564546784ab3fACA982'},
+  link: { symbol: 'LINK', address: '0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651'},
+  wbtc: { symbol: 'WBTC', address: '0x408D4cD0ADb7ceBd1F1A1C33A0Ba2098E1295bAB'},
 };
 
 const avaxDexes: AmmFactories = {
