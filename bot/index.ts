@@ -15,7 +15,7 @@ function sleep(ms: number) {
 
 async function calcNetProfit(profitWei: BigNumber, address: string, baseTokens: Tokens): Promise<number> {
   let price = 1;
-  if (baseTokens.wbnb.address == address) {
+  if (baseTokens.wavax.address == address) {
     price = await getBnbPrice();
   }
   let profit = parseFloat(ethers.utils.formatEther(profitWei));
@@ -70,9 +70,9 @@ function arbitrageFunc(flashBot: FlashBot, baseTokens: Tokens) {
 }
 
 async function main() {
-  const pairs = await tryLoadPairs(Network.BSC);
+  const pairs = await tryLoadPairs(Network.AVAX);
   const flashBot = (await ethers.getContractAt('FlashBot', config.contractAddr)) as FlashBot;
-  const [baseTokens] = getTokens(Network.BSC);
+  const [baseTokens] = getTokens(Network.AVAX);
 
   log.info('Start arbitraging');
   while (true) {
