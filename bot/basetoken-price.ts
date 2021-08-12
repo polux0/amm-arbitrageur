@@ -23,7 +23,7 @@ export async function getBnbPrice(): Promise<number> {
     if (bnbPrice !== 0) {
       return bnbPrice;
     }
-    const res = await axios.get(config.bscScanUrl);
+    const res = await axios.get(config.avaScanUrl);
     bnbPrice = parseFloat(res.data.result.ethusd);
     log.info(`BNB price: $${bnbPrice}`);
     return bnbPrice;
