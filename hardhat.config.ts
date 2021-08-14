@@ -6,10 +6,14 @@ import deployer from './.secret';
 
 // Binance
 
-// const BSC_RPC = 'https://bsc-dataseed.binance.org/';
 const BSC_RPC = 'https://bsc-dataseed1.defibit.io/';
 const BSC_Tetsnet_RPC = 'https://data-seed-prebsc-1-s1.binance.org:8545/';
+
 // Avalanche
+const AVASH = "http://localhost:9650/ext/bc/C/rpc";
+const FUJI = "https://api.avax-test.network/ext/bc/C/rpc";
+const AVAX = "https://api.avax.network/ext/bc/C/rpc";
+
 
 const FORK_FUJI = false
 const FORK_MAINNET = false
@@ -68,7 +72,7 @@ const config: HardhatUserConfig = {
       accounts: [deployer.private],
     },
     avash: {
-      url: 'http://localhost:9650/ext/bc/C/rpc',
+      url: AVASH,
       gasPrice: 225000000000,
       chainId: 43112,
       accounts: [
@@ -85,15 +89,15 @@ const config: HardhatUserConfig = {
       ]
     },
     fuji: {
-      url: 'https://api.avax-test.network/ext/bc/C/rpc',
+      url: FUJI,
       gasPrice: 225000000000,
       chainId: 43113,
       accounts: [
         "0xc6081cae5ee2b8431e1e70b5e8684154495bfe53f0302ec297efa5ebde3329ca"
       ]
     },
-    mainnet: {
-      url: 'https://api.avax.network/ext/bc/C/rpc',
+    avax: {
+      url: AVAX,
       gasPrice: 225000000000,
       chainId: 43114,
       accounts: [

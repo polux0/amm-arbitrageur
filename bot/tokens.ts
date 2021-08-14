@@ -31,7 +31,6 @@ const avaxDexes: AmmFactories = {
   sushi: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   olive: '0x4Fe4D8b01A56706Bc6CaD26E8C59D0C7169976b3',
   lydia: '0xe0C1bb6DF4851feEEdc3E14Bd509FEAF428f7655',
-  // value: '0x1B8E12F839BD4e73A47adDF76cF7F0097d74c14C',
 };
 
 function getFactories(network: Network): AmmFactories {
