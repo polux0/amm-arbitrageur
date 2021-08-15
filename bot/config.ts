@@ -15,7 +15,7 @@ const gasPrice = utils.parseUnits('10', 'gwei');
 const gasLimit = 300000;
 
 const avaScanApiKey = 'XXXXXXXXXXXXXXXX'; // bscscan API key
-const avaScanUrl = `https://api.bscscan.com/api?module=stats&action=bnbprice&apikey=${bscScanApiKey}`;
+const avaScanUrl = `https://api.coingecko.com/api/v3/simple/price?ids=avalanche-2&vs_currencies=usd`;
 
 const config: Config = {
   contractAddr: contractAddr,

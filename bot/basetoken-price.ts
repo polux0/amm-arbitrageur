@@ -6,26 +6,27 @@ import log from './log';
 
 const lock = new AsyncLock();
 
-let bnbPrice = 0;
+let avaxusdprice = 0;
 
-// clear bnb price every hour
+// clear avax price every hour
 setInterval(() => {
   lock
-    .acquire('bnb-price', () => {
-      bnbPrice = 0;
+    .acquire('avax-usd-price', () => {
+      avaxusdprice = 0;
       return;
     })
     .then(() => {});
 }, 3600000);
 
+// clear avax price every hour
 export async function getBnbPrice(): Promise<number> {
-  return await lock.acquire('bnb-price', async () => {
-    if (bnbPrice !== 0) {
-      return bnbPrice;
+  return await lock.acquire('avax-usd-price', async () => {
+    if (avaxusdprice !== 0) {
+      return avaxusdprice;
     }
     const res = await axios.get(config.avaScanUrl);
-    bnbPrice = parseFloat(res.data.result.ethusd);
-    log.info(`BNB price: $${bnbPrice}`);
-    return bnbPrice;
+    avaxusdprice = parseFloat(res.data['avalanche-2'].usd);
+    log.info(`AVAX price: $${avaxusdprice}`);
+    return avaxusdprice;
   });
 }
