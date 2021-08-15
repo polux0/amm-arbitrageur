@@ -19,7 +19,7 @@ setInterval(() => {
 }, 3600000);
 
 // clear avax price every hour
-export async function getBnbPrice(): Promise<number> {
+export async function getAvaxPrice(): Promise<number> {
   return await lock.acquire('avax-usd-price', async () => {
     if (avaxusdprice !== 0) {
       return avaxusdprice;

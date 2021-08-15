@@ -24,12 +24,13 @@ const avaxQuoteTokens: Tokens = {
   png: { symbol: 'PNG', address: '0x60781C2586D68229fde47564546784ab3fACA982'},
   link: { symbol: 'LINK', address: '0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651'},
   wbtc: { symbol: 'WBTC', address: '0x408D4cD0ADb7ceBd1F1A1C33A0Ba2098E1295bAB'},
+  usdt: { symbol: 'USDT', address: '0xde3A24028580884448a5397872046a019649b084'},
 };
 
 const avaxDexes: AmmFactories = {
   pangolin: '0xefa94DE7a4656D787667C749f7E1223D71E9FD88',
   sushi: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
-  olive: '0x4Fe4D8b01A56706Bc6CaD26E8C59D0C7169976b3',
+  // olive: '0x4Fe4D8b01A56706Bc6CaD26E8C59D0C7169976b3',
   lydia: '0xe0C1bb6DF4851feEEdc3E14Bd509FEAF428f7655',
 };
 

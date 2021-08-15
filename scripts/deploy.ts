@@ -2,15 +2,18 @@ import { ethers, run } from 'hardhat';
 
 import deployer from '../.secret';
 
-// WBNB address on BSC, WETH address on ETH
-const WethAddr = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
+// WBNB address on BSC, WETH address on ETH, WAVAX on AVAX
+const WethAddr = '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7';
 
 async function main() {
   await run('compile');
+  let currentProvider = await ethers.provider.getNetwork()
   const FlashBot = await ethers.getContractFactory('FlashBot');
   const flashBot = await FlashBot.deploy(WethAddr);
 
-  console.log(`FlashBot deployed to ${flashBot.address}`);
+  console.log(JSON.stringify(currentProvider, null, 4));
+  console.log(`FlashBot deployed to ${flashBot.address}, current provider ${currentProvider}`);
+
 }
 
 main()

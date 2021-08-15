@@ -1,0 +1,142 @@
+[
+  {
+    "symbols": "ETH-WAVAX",
+    "pairs": [
+      "0x1aCf1583bEBdCA21C8025E172D8E8f2817343d65",
+      "0xE5Dc9c75D4514A5a7fe370e636560699bA83C702"
+    ]
+  },
+  {
+    "symbols": "ETH-WAVAX",
+    "pairs": [
+      "0x1aCf1583bEBdCA21C8025E172D8E8f2817343d65",
+      "0x58128aB3EcBF703682EDe72f341944BFfe3524b9"
+    ]
+  },
+  {
+    "symbols": "ETH-WAVAX",
+    "pairs": [
+      "0xE5Dc9c75D4514A5a7fe370e636560699bA83C702",
+      "0x58128aB3EcBF703682EDe72f341944BFfe3524b9"
+    ]
+  },
+  {
+    "symbols": "DAI-WAVAX",
+    "pairs": [
+      "0x17a2E8275792b4616bEFb02EB9AE699aa0DCb94b",
+      "0x034c1B19DaB61b5de448eFc1E10A2E592725C893"
+    ]
+  },
+  {
+    "symbols": "DAI-WAVAX",
+    "pairs": [
+      "0x17a2E8275792b4616bEFb02EB9AE699aa0DCb94b",
+      "0x571fde34188D74B2c305702cD61d3a35CF0dc5e5"
+    ]
+  },
+  {
+    "symbols": "DAI-WAVAX",
+    "pairs": [
+      "0x034c1B19DaB61b5de448eFc1E10A2E592725C893",
+      "0x571fde34188D74B2c305702cD61d3a35CF0dc5e5"
+    ]
+  },
+  {
+    "symbols": "PNG-WAVAX",
+    "pairs": [
+      "0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367",
+      "0xa1708efD71E516A2D0Ebd7eC8D877C02d4d2De6d"
+    ]
+  },
+  {
+    "symbols": "PNG-WAVAX",
+    "pairs": [
+      "0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367",
+      "0x264b5ccccC16D6328cd8e0032Ef90eF5Aba78c72"
+    ]
+  },
+  {
+    "symbols": "PNG-WAVAX",
+    "pairs": [
+      "0xa1708efD71E516A2D0Ebd7eC8D877C02d4d2De6d",
+      "0x264b5ccccC16D6328cd8e0032Ef90eF5Aba78c72"
+    ]
+  },
+  {
+    "symbols": "LINK-WAVAX",
+    "pairs": [
+      "0xbbC7fFF833D27264AaC8806389E02F717A5506c9",
+      "0xAEc2BECB0711b263C665f1Bc813c1f53F97C991a"
+    ]
+  },
+  {
+    "symbols": "LINK-WAVAX",
+    "pairs": [
+      "0xbbC7fFF833D27264AaC8806389E02F717A5506c9",
+      "0xF8FbB3c62Feb73E10914D03E5524093955E702CA"
+    ]
+  },
+  {
+    "symbols": "LINK-WAVAX",
+    "pairs": [
+      "0xAEc2BECB0711b263C665f1Bc813c1f53F97C991a",
+      "0xF8FbB3c62Feb73E10914D03E5524093955E702CA"
+    ]
+  },
+  {
+    "symbols": "WBTC-WAVAX",
+    "pairs": [
+      "0x7a6131110B82dAcBb5872C7D352BfE071eA6A17C",
+      "0xAe0ffC93315A5215047Ded27880aC50a537e0a2E"
+    ]
+  },
+  {
+    "symbols": "WBTC-WAVAX",
+    "pairs": [
+      "0x7a6131110B82dAcBb5872C7D352BfE071eA6A17C",
+      "0x9cfb46D0b92Ac83AAa9ED0913F3F01CdBE22176D"
+    ]
+  },
+  {
+    "symbols": "WBTC-WAVAX",
+    "pairs": [
+      "0xAe0ffC93315A5215047Ded27880aC50a537e0a2E",
+      "0x9cfb46D0b92Ac83AAa9ED0913F3F01CdBE22176D"
+    ]
+  },
+  {
+    "symbols": "USDT-WAVAX",
+    "pairs": [
+      "0x9EE0a4E21bd333a6bb2ab298194320b8DaA26516",
+      "0x47F1C2a9c9027A10C3b13D1c40DD976C5014339B"
+    ]
+  },
+  {
+    "symbols": "USDT-WAVAX",
+    "pairs": [
+      "0x9EE0a4E21bd333a6bb2ab298194320b8DaA26516",
+      "0xE22A65204726f102d9E3539b85D3999Dee2e421F"
+    ]
+  },
+  {
+    "symbols": "USDT-WAVAX",
+    "pairs": [
+      "0x47F1C2a9c9027A10C3b13D1c40DD976C5014339B",
+      "0xE22A65204726f102d9E3539b85D3999Dee2e421F"
+    ]
+  },
+  {
+    "symbols": "ETH-USDT",
+    "pairs": [
+      "0xdDfCef1081b8eEaBe3935817b9625c9B89848a56",
+      "0xb40a3c121074B4cbc9e366dA64bD0E7a3510E5E6"
+    ]
+  },
+  {
+    "symbols": "DAI-USDT",
+    "pairs": [
+      "0x485E264903e584E1A41B80Eb842470DA9d47E764",
+      "0x3cEbc2b0fEBf521494f06318bBE202ae7eE799c9"
+    ]
+  }
+]

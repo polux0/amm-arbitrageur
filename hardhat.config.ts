@@ -10,6 +10,7 @@ const BSC_RPC = 'https://bsc-dataseed1.defibit.io/';
 const BSC_Tetsnet_RPC = 'https://data-seed-prebsc-1-s1.binance.org:8545/';
 
 // Avalanche
+const ETH = "https://eth-mainnet.alchemyapi.io/v2/DOxFGBcXPIUcrx1KdX8qdx0eMBBYxdTS";
 const AVASH = "http://localhost:9650/ext/bc/C/rpc";
 const FUJI = "https://api.avax-test.network/ext/bc/C/rpc";
 const AVAX = "https://api.avax.network/ext/bc/C/rpc";
@@ -54,8 +55,9 @@ const config: HardhatUserConfig = {
     hardhat: {
       // loggingEnabled: true,
       forking: {
-        url: BSC_RPC,
-        enabled: true,
+        url: ETH,
+        // enabled: true,
+        // blockNumber: 2957359
       },
       accounts: {
         accountsBalance: '1000000000000000000000000', // 1 mil ether
@@ -100,9 +102,10 @@ const config: HardhatUserConfig = {
       url: AVAX,
       gasPrice: 225000000000,
       chainId: 43114,
-      accounts: [
-        "0x5e83a7109e2c2c3e6c8c60124714737660c18b75bbfa22f9e4dd031064657956"
-      ]
+      accounts: [deployer.private],
+      // accounts: [
+      //   "0x5e83a7109e2c2c3e6c8c60124714737660c18b75bbfa22f9e4dd031064657956"
+      // ]
     }
 
   },
