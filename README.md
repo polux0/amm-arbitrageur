@@ -2,6 +2,7 @@ TODO:
 - Get avascan url
 - Look into stablecoin arb between curve type contracts and uniswap type contracts
 - Understand and fully quantify the pairs liquidity outlined in tokens.ts
+- Get better avax rpc
 
 Liquidity status overall:
 

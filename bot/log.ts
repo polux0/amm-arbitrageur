@@ -11,7 +11,7 @@ const logger = createLogger({
       (info) => `${info.timestamp} ${info.level}: ${info.message}` + (info.splat !== undefined ? `${info.splat}` : ' ')
     )
   ),
-  transports: [new transports.Console({ level: config.logLevel })],
+  transports: [new transports.Console({ level: config.logLevel }), new transports.File({filename:'logs/profits.log'})],
 });
 
 export default logger;
